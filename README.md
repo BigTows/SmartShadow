@@ -1,0 +1,2 @@
+# SmartShadow
+Animated shadow.
