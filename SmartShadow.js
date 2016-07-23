@@ -57,7 +57,7 @@ function Shadow() {
         }
         else if (Mode == 1) {
             X = (MouseX * 30 / 100) / 2 - obj[j].offsetWidth / 2;
-            Y = (MouseY * 30 / 100) / 0.5 - obj[j].offsetHeight / 2;
+            Y = (MouseY * 30 / 100) / 2 - obj[j].offsetHeight / 2;
         }
         if (X > MaxX) {
             X = MaxX;
