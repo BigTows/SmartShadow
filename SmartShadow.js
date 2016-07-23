@@ -49,7 +49,6 @@ document.onmousemove = function (e) {
 
 function Shadow() {
     for (var obj = document.getElementsByName(nameInDOM), j = 0; j < obj.length; j++) {
-        obj[j].textContent = "Test...";
         if (Mode == 0) {
             X = obj[j].offsetWidth + obj[j].offsetLeft;
             Y = obj[j].offsetHeight + obj[j].offsetTop;
